@@ -118,7 +118,7 @@
      <!-- ========================================分隔线========================================= -->
     <!-- 业务库 配置Spring的事务管理器 -->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-        <property name="dataSource" ref="busDataSource"/>
+        <property name="dataSource" ref="dataSource"/>
     </bean>
 
     <!-- 配置Spring的事务模版每次新事务 -->
@@ -135,10 +135,6 @@
         <property name="transactionManager">
             <ref bean="transactionManager" />
         </property>
-    </bean>
-    <!-- 配置库 配置Spring的事务管理器 -->
-    <bean id="configTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-        <property name="dataSource" ref="configDataSource"/>
     </bean>
     <!-- ========================================分隔线========================================= -->
     
