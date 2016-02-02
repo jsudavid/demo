@@ -105,7 +105,7 @@
 		<repository>
 			<id>releases</id>
 			<name>Team Nexus Repository</name>
-			<url>http://123.57.152.75:8021/nexus/content/groups/public</url>
+			<url>http://nexus.sqbj.com/content/groups/public</url>
 		</repository>
 
 	</repositories>
@@ -187,17 +187,17 @@
 	</dependencies>
 
 	<distributionManagement>
-		<repository>
-			<id>releases</id>
-			<name>Gigold Nexus Repository</name>
-			<url>http://123.57.152.75:8021/nexus/content/repositories/releases</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>Gigold Nexus Repository</name>
-			<url>http://123.57.152.75:8021/nexus/content/repositories/snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>Gigold Nexus Repository</name>
+            <url>http://nexus.sqbj.com/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Gigold Nexus Repository</name>
+            <url>http://nexus.sqbj.com/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 
 	<modules>
@@ -205,6 +205,9 @@
 		<module>demo-domain</module>
 		<module>demo-rpc</module>
 		<module>demo-dubbo-provider</module>
+		<module>demo-api</module>
+		<module>demo-dubbo-service</module>
 		<module>demo-dubbo-consume</module>
+		<module>demo-dubbo-web</module>
 	</modules>
 </project>

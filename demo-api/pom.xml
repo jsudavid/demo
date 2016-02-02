@@ -7,18 +7,12 @@
     <artifactId>demo</artifactId>
     <version>1.0.0</version>
   </parent>
-  <artifactId>demo-dubbo-consume</artifactId>
-   <version>0.0.1-SNAPSHOT</version>
-  <name>demo-dubbo-consume</name>
+  <artifactId>demo-api</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>demo-api</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  <dependencies>
-    <dependency>
-		<groupId>com.gigold.pay</groupId>
-		<artifactId>demo-api</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</dependency>	
-  </dependencies>
+  
 </project>
